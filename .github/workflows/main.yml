@@ -1,3 +1,4 @@
+# Carmen Catalin Delgado Manzano
 name: Hello Catalina Delgado 
 
 on: 
@@ -9,3 +10,9 @@ jobs:
     steps:
       - name: Say Hello 
         run: echo "Hello World"
+        
+      - name: Fecha hoy
+        run: date
+
+      - name: Mostrar directorio actual
+        run: pwd
